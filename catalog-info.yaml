@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: myapp
+  description: An example of a Backstage application.
+  annotations:
+    jira/project-key: SCRUM
+    github.com/project-slug: ManojMachireddy22/backstagedemo
+spec:
+  type: website
+  owner: john@example.com
+  lifecycle: experimental
